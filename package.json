@@ -7,8 +7,8 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
-    "backup": "ts-node database/backup.ts",
-    "restore": "ts-node database/restore.ts"
+    "backup": "ts-node src/database/backup.ts",
+    "restore": "ts-node src/database/restore.ts"
   },
   "keywords": [],
   "author": "",
